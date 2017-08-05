@@ -66,7 +66,6 @@ html {
     left: 0;
     bottom: 0;
     width: 18rem;
-    text-align: left;
   }
 }
 
@@ -76,6 +75,11 @@ html {
 }
 
 /* About section */
+.sidebar-about img {
+  margin: 0 auto;
+  height: 180px;
+  width: 180px;
+}
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;

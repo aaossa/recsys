@@ -6,20 +6,18 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            Antonio Ossa
+tagline:          'RecSys blog'
+description:      'Recommender Systems blog, by <a href="https://github.com/aaossa" target="_blank">@aaossa</a>'
 url:              https://aaossa.github.io/recsys
 baseurl:          /recsys
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Antonio Ossa'
+  url:            https://github.com/aaossa
+  photo:          https://avatars3.githubusercontent.com/u/10425834?v=3&s=200
 
 paginate:         5
 
 # Custom vars
 version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
