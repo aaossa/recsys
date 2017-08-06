@@ -5,6 +5,10 @@ layout: default
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
+  {% if post.description %}
+  <h3>{{ post.description }}</h3>
+  {% endif %}
+  <br>
   {{ content }}
 </div>
 
