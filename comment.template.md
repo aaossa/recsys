@@ -1,7 +1,11 @@
 ---
-layout: post
+layout: default
 title: Comment on "Title", by Author
 description: Description
+---
+
+**Remember to use `layout: post`**
+
 ---
 
 ### Resumen
