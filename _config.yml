@@ -18,6 +18,7 @@ author:
   photo:          https://avatars3.githubusercontent.com/u/10425834?v=3&s=200
 
 paginate:         5
+plugins:          [jekyll-paginate]
 
 exclude:          ['README.md', 'LICENSE.md', comment.template.md']
 
