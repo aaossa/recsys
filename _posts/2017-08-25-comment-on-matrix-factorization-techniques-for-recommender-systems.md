@@ -22,7 +22,7 @@ A diferencia de los métodos de CF, donde la recomendación es realizada en base
 
 Si bien la información más relevante se encuentra en el *feedback* explícito, el *rating* que un usuario específico le asigna a un *item* específico, es dificil conseguir un número de evaluaciones significativo, por lo que las matrices usuario-item son muy poco densas. Como indica el paper, una de las fortalezas de la factorización matricial es que permite incluir información adicional a las evaluaciones explícitas. 
 
-El *feedback* implícito comunmente se compone de distintos eventos que indican interacción de un usuario con un *item*. Por ejmplo, en Spotify no se utilizan *ratings*,  pero sí se considera si un usuarió escuchó una canción, cuando lo hizo, si le dió *thumps up* e incluso si se saltó el tema alguna vez.
+El *feedback* implícito comunmente se compone de distintos eventos que indican interacción de un usuario con un *item*. Por ejmplo, en Spotify no se utilizan *ratings*,  pero sí se considera si un usuarió escuchó una canción, cuando lo hizo, si le dió *thumbs up* e incluso si se saltó el tema alguna vez.
 
 > ![Captura de Spotify mostrando la lista "Descubrimiento semanal"](/recsys/public/img/spotify-weekly.jpg)
 >
@@ -73,7 +73,7 @@ Hoy en día se utilizan distintas aproximaciones para encontrar los mejores desc
 
 ### Importancia del Netflix Prize
 
-El Netflix Prize permitió que los métodos de factorización matricial (como SVD) destacaran al ser parte del algoritmo gandaor y ser usados por los equipos de mejor ranking. Si bien esta competencia no llevó a que se desarrollaran muchos nuevos algoritmos o técnicas revolucionarias, si permitió al entorno de los Sistemas Recomendadores darse cuenta de cieras cosas, como que el momento de la evaluación importa, que un solo método no es suficiente (la entrada ganadora usaba **más de 100 algoritmos**) y que hay que considerar el ruido en el *dataset*. 
+El Netflix Prize permitió que los métodos de factorización matricial (como SVD) destacaran al ser parte del algoritmo ganador y ser usados por los equipos de mejor ranking. Si bien esta competencia no llevó a que se desarrollaran muchos nuevos algoritmos o técnicas revolucionarias, sí permitió al entorno de los Sistemas Recomendadores darse cuenta de ciertas cosas, como que el momento de la evaluación importa, que un solo método no es suficiente (la entrada ganadora usaba **más de 100 algoritmos**) y que hay que considerar el ruido en el *dataset*. 
 
 > **Dato freak:** De acuerdo a [Forbes](https://www.forbes.com/sites/ryanholiday/2012/04/16/what-the-failed-1m-netflix-prize-tells-us-about-business-advice/#69572ea673c9), Netflix no llegó a utilizar el algoritmo ganador debido a que la mejora lograda no se justifica con el esfuerzo necesario para llevar el algoritmo a producción.
 
@@ -93,9 +93,9 @@ Para cerrar la historia, el equipo conformado por los autores (originalmente "Be
 
 > ![Tabla final del Netflix Prize](/recsys/public/img/netflix-prize-leaderboard.jpg)
 >
-> Tabla de resultados final del Netflix Prize. Cabe destacar que "BellKor's Pragmatic Chaos" logró el mismo porcentaje de mejora que "The Ensemble", pero los primeros ganaron por subir su entrada primero... por 20 minutos. Captura: [Netflix Prize leaderboard](http://www.netflixprize.com/leaderboard.html).
+> Tabla de resultados final del Netflix Prize. Se destaca que "BellKor's Pragmatic Chaos" logró el mismo porcentaje de mejora que "The Ensemble", pero los primeros ganaron por subir su entrada primero... por 20 minutos. Captura: [Netflix Prize leaderboard](http://www.netflixprize.com/leaderboard.html).
 
-Cabe destacar que cada equipo por su cuenta de todas formas estaba en el "Top 10". "PragmaticTheory" quedó 6°, "BellKor in BigChaos" ("BellKor" + "BigChaos") quedó 7°, "BigChaos" quedó en el décimo lugar y "BellKor" en el lugar 12.
+Cabe destacar que cada equipo por su cuenta de todas formas estaba en el "Top 15". "PragmaticTheory" quedó 6°, "BellKor in BigChaos" ("BellKor" + "BigChaos") quedó 7°, "BigChaos" quedó en el décimo lugar y "BellKor" en el lugar 12.
 
 > ![Ganadores del Netflix Prize](/recsys/public/img/netflix-prize-winners.jpg)
 >
